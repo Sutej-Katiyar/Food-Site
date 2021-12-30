@@ -46,7 +46,7 @@ body {
   padding: 0 4.8rem;
   position: relative;
 }
-.btn-mobile-nav {
+.nav-cta {
   border: none;
   cursor: pointer;
   background-color: #e67e22;
@@ -55,4 +55,16 @@ body {
   padding: 1.2rem 2.4rem;
   font-weight: 500;
   font-size: 1.8rem;
+  text-decoration: none;
+}
+.nav-cta:hover {
+  background-color: #cf711f;
+  transition: 0.5s;
+}
+.nav-cta:focus {
+  box-shadow: 0 0 0 10px #e67d2275;
+}
+.main-nav-link:hover {
+  color: #cf711f;
+  transition: 0.5s;
 }
